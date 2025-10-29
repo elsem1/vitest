@@ -24,7 +24,7 @@ describe('Greeting', () => {
         //Assert
         expect(wrapper.text()).toContain('Hello, Vitest!👋');
     });
-    it('should render only the name prop', () => {
+    it('should render only the name prop when emoji is empty', () => {
         // Arrange
         const name = 'Vitest';
         const emoji = '';
@@ -33,6 +33,18 @@ describe('Greeting', () => {
         const wrapper = shallowMount(Greeting, { props: { name, emoji } });
 
         // Assert
+        expect(wrapper.text()).toContain('Hello, Vitest!');        
+    });
+    it('should not render emoji when prop is not provided', () => {
+        // Arrange
+        const name = 'Vitest';
+        const emoji = '👋';
+
+        // Act
+        const wrapper = shallowMount(Greeting, { props: { name } });
+
+        // Assert
         expect(wrapper.text()).toContain('Hello, Vitest!');
+        expect(wrapper.text()).not.toContain('👋');
     });
 });
