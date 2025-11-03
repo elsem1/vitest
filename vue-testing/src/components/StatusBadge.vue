@@ -16,7 +16,7 @@ defineProps<{
             ✗ Fout
         </div>
     </div>
-</template>
+</template> 
 
 <style scoped>
 .badge {

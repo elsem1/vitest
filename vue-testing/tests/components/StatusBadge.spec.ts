@@ -52,7 +52,7 @@ describe('StatusBadge', () => {
         expect(wrapper.find('.badge-success').exists()).toBe(false);
         expect(wrapper.find('.badge-warning').exists()).toBe(false);
     });
-    it('should show no badges when status is not error, succes or warning', () => {
+    it('should show no badges when status is not error, success or warning', () => {
         // Arrange
         const status = '102';
 
@@ -64,15 +64,35 @@ describe('StatusBadge', () => {
         expect(wrapper.find('.badge-success').exists()).toBe(false);
         expect(wrapper.find('.badge-warning').exists()).toBe(false);
     });
-    it('should show warning badge with an orange color', () => {
-        // Arrange
-        const status = 'warning';
+    it('should display correct text for success status', () => {
+        // Arrange 
+        const  status = 'success';
 
         // Act
         const wrapper = shallowMount(StatusBadge, { props: { status } });
 
-        // Assert        
-        expect(wrapper.find('.badge-warning').exists()).toBe(true);
-        expect(wrapper.find('.badge-warning.color')).toBe('#856404')
+        // Assert
+        expect(wrapper.find('.badge-success').text()).toBe('✓ Gelukt');
     });
+    it('should display correct text for warning status', () => {
+        // Arrange
+        const status = 'warning';        
+
+        // Act
+        const wrapper = shallowMount(StatusBadge, { props: { status } });
+
+        // Assert
+        expect(wrapper.find('.badge-warning').text()).toBe('⚠ Waarschuwing');
+    });
+    it('should display correct text for error status', () => {
+        // Arrange
+        const status = 'error';
+
+        // Act
+        const wrapper = shallowMount(StatusBadge, { props: { status }  });
+
+        // Assert
+        expect(wrapper.find('.badge-error').text()).toBe('✗ Fout');
+    });
+    
 });
