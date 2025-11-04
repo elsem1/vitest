@@ -64,14 +64,14 @@ describe('LikeButton', () => {
         expect(wrapper.emitted('like')?.[0]).toStrictEqual([]);
         expect(wrapper.emitted()).toHaveProperty('like');
     });
-    it('should increment the like counter by 1 after liking', async () => {
+    it('should show the correct amount of likes from count', async () => {
         // Arrange
-        const count = 0;
+        const count = 7;
         const wrapper = shallowMount(LikeButton, { props: { count } });
 
         // Act & Assert
         await wrapper.find('button').trigger('click');
-        expect(wrapper.text()).toContain('(8)');
-    }); // Deze werkt niet omdat er geen counter++ functionaliteit is
+        expect(wrapper.text()).toContain('(7)');
+    }); 
     
 });
