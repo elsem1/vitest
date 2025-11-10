@@ -29,7 +29,7 @@ describe('LoginForm', () => {
 
         // Assert
         expect(wrapper.emitted('submit')?.[0]).toStrictEqual([
-            {email: 'user@example.com', password: 'secret123'},
+            {email: 'user@example.com', password: 'secret123'}
         ]);
     });
 
@@ -88,6 +88,6 @@ describe('LoginForm', () => {
         await form.trigger('submit');
 
         // Assert 
-        expect(wrapper.find('.error').text()).toBe('');
+        expect(wrapper.find('.error').exists()).toBe(false);
     })
 });
