@@ -11,3 +11,5 @@ declare module '@vue/test-utils' {
 VueWrapper.prototype.getByDataTest = function (selector: string) {
     return this.find(`[data-test="${selector}"]`);
 };
+
+export{};
