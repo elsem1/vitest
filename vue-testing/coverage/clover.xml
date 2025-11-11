@@ -1,22 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762858453509" clover="3.2.0">
-  <project timestamp="1762858453509" name="All files">
-    <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1" elements="22" coveredelements="22" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
-    <file name="WeatherWidget.vue" path="/home/elwin/repos/vitest/vue-testing/src/components/WeatherWidget.vue">
-      <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-      <line num="5" count="5" type="stmt"/>
-      <line num="9" count="5" type="stmt"/>
-      <line num="10" count="5" type="stmt"/>
-      <line num="11" count="5" type="stmt"/>
-      <line num="13" count="5" type="stmt"/>
-      <line num="15" count="5" type="stmt"/>
-      <line num="16" count="5" type="stmt"/>
-      <line num="17" count="5" type="stmt"/>
-      <line num="19" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="21" count="5" type="stmt"/>
-      <line num="27" count="10" type="stmt"/>
-      <line num="39" count="1" type="stmt"/>
-      <line num="40" count="1" type="stmt"/>
+<coverage generated="1762861850344" clover="3.2.0">
+  <project timestamp="1762861850345" name="All files">
+    <metrics statements="65" coveredstatements="58" conditionals="47" coveredconditionals="47" methods="8" coveredmethods="8" elements="120" coveredelements="113" complexity="0" loc="65" ncloc="65" packages="1" files="8" classes="8"/>
+    <file name="Counter.vue" path="/home/elwin/repos/vitest/vue-testing/src/components/Counter.vue">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+    </file>
+    <file name="LikeButton.vue" path="/home/elwin/repos/vitest/vue-testing/src/components/LikeButton.vue">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="0" coveredmethods="0"/>
+      <line num="2" count="14" type="stmt"/>
+      <line num="16" count="6" type="stmt"/>
+      <line num="21" count="6" type="stmt"/>
+      <line num="24" count="8" type="stmt"/>
+      <line num="27" count="6" type="stmt"/>
+      <line num="29" count="2" type="stmt"/>
+    </file>
+    <file name="LoginForm.vue" path="/home/elwin/repos/vitest/vue-testing/src/components/LoginForm.vue">
+      <metrics statements="10" coveredstatements="10" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
+      <line num="7" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="32" count="6" type="stmt"/>
+      <line num="33" count="6" type="stmt"/>
+      <line num="34" count="6" type="stmt"/>
+      <line num="36" count="6" type="stmt"/>
+      <line num="42" count="5" type="stmt"/>
+      <line num="46" count="3" type="stmt"/>
+      <line num="47" count="3" type="stmt"/>
+      <line num="51" count="2" type="stmt"/>
+    </file>
+    <file name="RegistrationForm.vue" path="/home/elwin/repos/vitest/vue-testing/src/components/RegistrationForm.vue">
+      <metrics statements="20" coveredstatements="20" conditionals="23" coveredconditionals="23" methods="4" coveredmethods="4"/>
+      <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="27" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="37" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="53" count="7" type="stmt"/>
+      <line num="54" count="7" type="stmt"/>
+      <line num="55" count="7" type="stmt"/>
+      <line num="56" count="7" type="stmt"/>
+      <line num="57" count="7" type="stmt"/>
+      <line num="59" count="7" type="stmt"/>
+      <line num="70" count="5" type="stmt"/>
+      <line num="74" count="1" type="stmt"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="80" count="1" type="stmt"/>
+      <line num="81" count="1" type="stmt"/>
+      <line num="86" count="1" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+      <line num="92" count="1" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
+      <line num="97" count="1" type="stmt"/>
+    </file>
+    <file name="SearchForm.vue" path="/home/elwin/repos/vitest/vue-testing/src/components/SearchForm.vue">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="27" count="3" type="cond" truecount="4" falsecount="0"/>
+    </file>
+    <file name="UserCard.vue" path="/home/elwin/repos/vitest/vue-testing/src/components/UserCard.vue">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+    </file>
+    <file name="UserList.vue" path="/home/elwin/repos/vitest/vue-testing/src/components/UserList.vue">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="12" count="5" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="22" count="5" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+    </file>
+    <file name="UserProfile.vue" path="/home/elwin/repos/vitest/vue-testing/src/components/UserProfile.vue">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
