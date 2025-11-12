@@ -1,49 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762953896582" clover="3.2.0">
-  <project timestamp="1762953896582" name="All files">
-    <metrics statements="34" coveredstatements="34" conditionals="24" coveredconditionals="24" methods="16" coveredmethods="16" elements="74" coveredelements="74" complexity="0" loc="34" ncloc="34" packages="1" files="3" classes="3"/>
-    <file name="TodoInput.vue" path="/home/elwin/repos/vitest/to-do-list/src/components/TodoInput.vue">
-      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="4" count="7" type="stmt"/>
-      <line num="8" count="7" type="stmt"/>
-      <line num="11" count="3" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
-      <line num="18" count="2" type="stmt"/>
-      <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
-    </file>
+<coverage generated="1762954079128" clover="3.2.0">
+  <project timestamp="1762954079129" name="All files">
+    <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="11" coveredelements="11" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
     <file name="TodoItem.vue" path="/home/elwin/repos/vitest/to-do-list/src/components/TodoItem.vue">
       <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <line num="12" count="6" type="stmt"/>
       <line num="19" count="6" type="stmt"/>
-      <line num="20" count="2" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
       <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="37" count="1" type="cond" truecount="2" falsecount="0"/>
-    </file>
-    <file name="TodoList.vue" path="/home/elwin/repos/vitest/to-do-list/src/components/TodoList.vue">
-      <metrics statements="22" coveredstatements="22" conditionals="18" coveredconditionals="18" methods="13" coveredmethods="13"/>
-      <line num="14" count="12" type="stmt"/>
-      <line num="15" count="12" type="stmt"/>
-      <line num="16" count="12" type="stmt"/>
-      <line num="19" count="30" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="31" count="31" type="stmt"/>
-      <line num="33" count="11" type="stmt"/>
-      <line num="38" count="4" type="stmt"/>
-      <line num="41" count="12" type="stmt"/>
-      <line num="43" count="4" type="stmt"/>
-      <line num="46" count="6" type="stmt"/>
-      <line num="48" count="12" type="stmt"/>
-      <line num="51" count="12" type="stmt"/>
-      <line num="52" count="110" type="stmt"/>
-      <line num="55" count="12" type="stmt"/>
-      <line num="56" count="80" type="stmt"/>
-      <line num="61" count="1" type="stmt"/>
-      <line num="74" count="1" type="cond" truecount="2" falsecount="0"/>
-      <line num="81" count="1" type="cond" truecount="2" falsecount="0"/>
-      <line num="88" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="109" count="1" type="stmt"/>
-      <line num="110" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -1,4 +1,4 @@
-import TodoInput from '../src/components/TodoInput.vue';
+import TodoInput from '../../src/components/TodoInput.vue';
 import {shallowMount} from '@vue/test-utils';
 
 describe('TodoInput', () => {    

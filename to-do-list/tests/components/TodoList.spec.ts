@@ -1,6 +1,6 @@
-import TodoList from '../src/components/TodoList.vue';
-import TodoInput from '../src/components/TodoInput.vue';
-import TodoItem from '../src/components/TodoItem.vue';
+import TodoList from '../../src/components/TodoList.vue';
+import TodoInput from '../../src/components/TodoInput.vue';
+import TodoItem from '../../src/components/TodoItem.vue';
 import {shallowMount} from '@vue/test-utils';
 
 

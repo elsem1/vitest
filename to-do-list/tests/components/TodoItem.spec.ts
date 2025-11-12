@@ -1,4 +1,4 @@
-import TodoItem from '../src/components/TodoItem.vue'
+import TodoItem from '../../src/components/TodoItem.vue'
 import {shallowMount} from '@vue/test-utils';
 
 describe('TodoItem', () => {
