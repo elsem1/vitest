@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762953206641" clover="3.2.0">
-  <project timestamp="1762953206641" name="All files">
-    <metrics statements="34" coveredstatements="23" conditionals="24" coveredconditionals="18" methods="16" coveredmethods="13" elements="74" coveredelements="54" complexity="0" loc="34" ncloc="34" packages="1" files="3" classes="3"/>
+<coverage generated="1762953896582" clover="3.2.0">
+  <project timestamp="1762953896582" name="All files">
+    <metrics statements="34" coveredstatements="34" conditionals="24" coveredconditionals="24" methods="16" coveredmethods="16" elements="74" coveredelements="74" complexity="0" loc="34" ncloc="34" packages="1" files="3" classes="3"/>
     <file name="TodoInput.vue" path="/home/elwin/repos/vitest/to-do-list/src/components/TodoInput.vue">
-      <metrics statements="7" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="14" count="0" type="stmt"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="18" count="0" type="stmt"/>
-      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="4" count="7" type="stmt"/>
+      <line num="8" count="7" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
     </file>
     <file name="TodoItem.vue" path="/home/elwin/repos/vitest/to-do-list/src/components/TodoItem.vue">
-      <metrics statements="5" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <line num="12" count="0" type="stmt"/>
-      <line num="19" count="0" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="12" count="6" type="stmt"/>
+      <line num="19" count="6" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="37" count="1" type="cond" truecount="2" falsecount="0"/>
     </file>
     <file name="TodoList.vue" path="/home/elwin/repos/vitest/to-do-list/src/components/TodoList.vue">
       <metrics statements="22" coveredstatements="22" conditionals="18" coveredconditionals="18" methods="13" coveredmethods="13"/>
