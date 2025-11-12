@@ -10,6 +10,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*", "to-do-list/tests/**/*", "to-do-list/src/components/TodoList.vue", "to-do-list/src/components/TodoItem.vue", "to-do-list/src/components/TodoInput.vue"],
+  "include": ["src/**/*", "tests/**/*"],
   "exclude": ["node_modules"]
 }
